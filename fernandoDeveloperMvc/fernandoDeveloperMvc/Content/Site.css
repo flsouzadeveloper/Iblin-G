@@ -1,6 +1,6 @@
 ﻿header {
     position: absolute;
-    /*background-color: #3c78b0;*/    
+    /*background-color: #3c78b0;*/
 }
 
 footer {
@@ -14,17 +14,18 @@ footer {
     footer p {
         margin: 17px 0 10px;
         color: #ffffff;
-        text-align:center;
+        text-align: center;
     }
 
 html, body {
     height: 100%;
-    font-family: "Comic Sans MS", cursive, sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
+    /*font-family: "Comic Sans MS", cursive, sans-serif !important;*/
     font-size: 15px;
 }
 
-article{
-    border:none;
+article {
+    border: none;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -37,16 +38,16 @@ textarea {
 .gray {
     background-color: #D2D2D2;
     /*background: radial-gradient(#fff, #D2D2D2 90%);*/
-}                                             
-                                              
-.white {                                      
-    background-color: #fff;                   
+}
+
+.white {
+    background-color: #fff;
 }
 
 .red {
     /*background-color: #FF4242;*/
     /*background: radial-gradient(#fff, #FF4242 10%);*/
-    background: radial-gradient(ellipse at center, #FF7979 0%, #FF4242 100%)
+    background: radial-gradient(ellipse at center, #FFAEAE 0%, #FF4242 100%)
 }
 
 .yellow {
@@ -56,22 +57,37 @@ textarea {
 
 .green {
     /*background-color: #017945;*/
-    background: radial-gradient(#84BEA5, #017945 90%);
+    background: radial-gradient(#C4E0D4, #017945 90%);
 }
 
 .blue {
     /*background-color: #01789D;*/
-    background: radial-gradient(#fff, #01789D 90%);
+    background: radial-gradient(#D2E7EE, #01789D 90%);
 }
 
 .light-blue {
     background-color: #49C5B6;
     /*background: radial-gradient(#fff, #C3DFE0 90%);*/
-}                                             
-                                              
-.pink {                                       
-    background-color: #F47E6F;            
+}
+
+.pink {
+    background-color: #F47E6F;
     /*background: radial-gradient(#fff, #F47E6F 90%);*/
+}
+
+.green-water {
+    /*background-color: #00BDBD;*/
+    background: radial-gradient(#DCF6F6, #00BDBD 90%);
+}
+
+.black {
+    background-color: #1E1E1E;
+}
+
+.spacer{
+    position:relative;
+    margin-top:150px;
+    min-height: 500px;
 }
 
 .panel {
@@ -81,8 +97,8 @@ textarea {
     margin-bottom: 0 !important;
     border: none;
     border-radius: 0;
+    position:relative;
 }
-
 
 /*.first-left {
     width: 27%;

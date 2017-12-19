@@ -949,7 +949,7 @@ pre {
 @media (min-width: 768px) {
 
     .first-center {
-        width: 67%;
+        width: 50%;
         height: 985px;
         background-color: #fff;
         margin: 0 auto;
@@ -4479,8 +4479,20 @@ textarea.input-group-sm > .input-group-btn > .btn {
             height: 70px;
         }
 
-            .navbar-nav > li:hover {
+            .navbar-nav > li:hover:nth-child(1) {
                 background-color: #01789D;
+            }
+
+            .navbar-nav > li:hover:nth-child(2) {
+                background-color: #00BDBD;
+            }
+
+            .navbar-nav > li:hover:nth-child(3) {
+                background-color: #FF4242;
+            }
+
+            .navbar-nav > li:hover:nth-child(4) {
+                background-color: #017945;
             }
 
             .navbar-nav > li > a {
