@@ -19,20 +19,12 @@ footer {
 
 html, body {
     height: 100%;
-    font-family: 'Open Sans', sans-serif !important;
-    /*font-family: "Comic Sans MS", cursive, sans-serif !important;*/
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size:15px;
 }
 
 article {
     border: none;
-}
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
 }
 
 .gray {
@@ -77,7 +69,7 @@ textarea {
 
 .green-water {
     /*background-color: #00BDBD;*/
-    background: radial-gradient(#DCF6F6, #00BDBD 90%);
+    background: radial-gradient(#AFEBEB, #00BDBD 90%);
 }
 
 .black {
@@ -86,8 +78,18 @@ textarea {
 
 .spacer{
     position:relative;
-    margin-top:150px;
+    margin-top:170px;
     min-height: 500px;
+}
+
+    .spacer p {
+        font-size: 20px;
+        margin-top: 25px;
+        color: #fff;
+    }
+
+.spacer h1{
+    text-align:center;
 }
 
 .panel {
@@ -100,16 +102,70 @@ textarea {
     position:relative;
 }
 
-/*.first-left {
-    width: 27%;
-    min-height: 985px;
-    float: left;
-    background-color: #01789D;   
-}*/
+.exp{
+    margin-bottom:50px;
+}
 
-/*.first-right {
-    width: 27%;
-    min-height: 985px;
-    float: right;
-    background-color: #01789D;
-}*/
+.experiencias {
+    margin-top: 30px;
+    min-height:185px;
+}
+
+    .experiencias .ano {
+        width: 140px;
+        height: 140px;
+        padding-top: 60px;
+        text-align: center;
+        /*background: radial-gradient(#76B6CA, #01789D 90%);*/
+        background: radial-gradient(#fff, #F5F5F5 90%);
+        margin: 0 auto;
+        color: #252526;
+        position: relative;
+        top: 15px;
+        font-weight: bold;
+    }
+
+    .experiencias p {
+        font-size: 18px;
+        margin-top: 25px;
+        color: #FAFAFA;
+    }
+
+.experiencias-descricao {
+    /*background-color: #01789D;*/
+    min-height: 165px;
+}
+
+    .experiencias-descricao p {
+        color: #fff;
+        border-bottom: 0.5px solid #fff;
+        padding-bottom: 10px;
+        font-family: Oswald !important;
+    }
+
+    .experiencias-descricao h3 {
+        font-style: oblique;
+        text-decoration: underline;
+        margin-top: 35px;
+        color: #1F2631;
+    }
+
+    .experiencias-descricao h4 {
+        color: #1F2631;
+    }
+
+.contato label {
+    color: #fff;
+}
+
+.noresize {
+    resize: none;
+}
+
+.sobre-img img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hideme {
+    opacity: 0;
+}
