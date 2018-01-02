@@ -20,7 +20,7 @@ footer {
 html, body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif !important;
-    font-size:15px;
+    font-size: 15px;
 }
 
 article {
@@ -76,9 +76,9 @@ article {
     background-color: #1E1E1E;
 }
 
-.spacer{
-    position:relative;
-    margin-top:170px;
+.spacer {
+    position: relative;
+    margin-top: 170px;
     min-height: 500px;
 }
 
@@ -88,9 +88,9 @@ article {
         color: #fff;
     }
 
-.spacer h1{
-    text-align:center;
-}
+    .spacer h1 {
+        text-align: center;
+    }
 
 .panel {
     width: 100%;
@@ -99,16 +99,16 @@ article {
     margin-bottom: 0 !important;
     border: none;
     border-radius: 0;
-    position:relative;
+    position: relative;
 }
 
-.exp{
-    margin-bottom:50px;
+.exp {
+    margin-bottom: 50px;
 }
 
 .experiencias {
     margin-top: 30px;
-    min-height:185px;
+    min-height: 185px;
 }
 
     .experiencias .ano {
@@ -140,7 +140,7 @@ article {
         color: #fff;
         border-bottom: 0.5px solid #fff;
         padding-bottom: 10px;
-        font-family: Oswald !important;
+        font-family: 'Oswald' Important;
     }
 
     .experiencias-descricao h3 {
@@ -153,6 +153,16 @@ article {
     .experiencias-descricao h4 {
         color: #1F2631;
     }
+
+.portfolio {
+    margin-top: 60px;
+    min-height: 185px;
+}
+
+    .portfolio h4 {
+        color: #fff;
+        margin-top: 40px;
+    }    
 
 .contato label {
     color: #fff;
@@ -168,4 +178,12 @@ article {
 
 .hideme {
     opacity: 0;
+}
+
+.portfolio-image {
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    padding: 10px;
+    /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
 }
