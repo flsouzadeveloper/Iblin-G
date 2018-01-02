@@ -1,9 +1,7 @@
-﻿@{
-    ViewBag.Title = "Iblin-G - Fernando Souza";
+﻿@page
+@{
+    ViewBag.Title = "Home Page";
 }
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript">$(index_Load);</script>
 
 <section id="main">
     <div class="panel blue" id="art1">
@@ -152,7 +150,7 @@
             </div>
         </div>
     </div>
-    <div class="panel green-water" id="art3">
+    <div class="panel green-water" id="art2">
         <div class="container">
             <div class="row spacer">
                 <div class="hideme col-sm-12">
@@ -181,7 +179,7 @@
             </div>
         </div>
     </div>
-    <div class="panel red" id="art2">
+    <div class="panel red" id="art3">
         <div class="container">
             <div class="row spacer">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 exp">
@@ -254,45 +252,77 @@
             </div>
         </div>
     </div>
-    <div class="panel green" id="art4">
+    <div class="panel yellow" id="art4">
+        <div class="container">
+            <div class="row spacer">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 exp">
+                    <div class="hideme">
+                        <h1>Portfólio</h1>
+                        <h5 class="text-center">Alguns trabalhos realizados</h5>
+                        <hr />
+                    </div>
+                    <div class="portfolio row">
+                        <div class="hideme col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+                            <h4>Plantas Gabi</h4>
+                            <img class="portfolio-image hideme" src="~/images/plantasGabi.png" />
+                        </div>
+                        <div class="hideme col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+                            <h4>Power Services</h4>
+                            <img class="portfolio-image hideme" src="~/images/powerServices.png" />
+                        </div>
+                        <div class="hideme col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+                            <h4>Adega D'itália</h4>
+                            <img class="portfolio-image hideme" src="~/images/adegaDitalia.png" />
+                        </div>
+                        <div class="hideme col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <h2>Em breve novas atualizações!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel green" id="art5">
         <div class="container">
             <div class="row spacer">
                 <div class="hideme col-sm-12">
                     <h1>Contato</h1>
                     <hr />
                 </div>
-                <div class="hideme contato col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class=" contato col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="form-row ">
-                        <div class="form-group col-md-12">
-                            <p>Deixe seu recado preenchendo os campos abaixo, ou mande um email explicando o seu projeto com detalhes 
-                            para <strong>fernandodeveloper@hotmail.com</strong>, que entro em contato com você!</p>
+                        <div class="hideme form-group col-md-12">
+                            <p>
+                                Deixe seu recado preenchendo os campos abaixo, ou mande um email explicando o seu projeto com detalhes
+                                para <strong>fernandodeveloper@hotmail.com</strong>, que entro em contato com você!
+                            </p>
                         </div>
-                        <div class="form-group col-md-12">
+                        <div class="hideme form-group col-md-12">
                             <label>Nome</label>
                             <input type="email" class="form-control" id="inputEmail4">
                         </div>
-                        <div class="form-group col-md-12">
+                        <div class="hideme form-group col-md-12">
                             <label>Email</label>
                             <input type="password" class="form-control" id="inputPassword4">
                         </div>
-                        <div class="form-group col-md-12">
+                        <div class="hideme form-group col-md-12">
                             <label>Assunto</label>
                             <input type="text" class="form-control" id="inputAddress">
                         </div>
-                        <div class="form-group col-md-12">
+                        <div class="hideme form-group col-md-12">
                             <label>Mensagem</label>
                             <textarea class="form-control noresize" rows="5"></textarea>
                         </div>
-                        <div class="form-group col-md-12">
+                        <div class="hideme form-group col-md-12">
                             <button type="submit" class="btn btn-primary exp">Enviar</button>
                         </div>
                     </div>
                 </div>
                 <div class="hideme col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="form-group col-md-12">
-                        <img src="~/Images/icone-mapa.jpg" />
+                        <img src="~/images/icone-mapa.png" />
 
-                        <input type="email" class="form-control" id="inputEmail4">
+                        <input type="email" class="form-control" id="inputEmail5">
                     </div>
                     <div class="text-center">
                         <h3>Redes Sociais</h3>
