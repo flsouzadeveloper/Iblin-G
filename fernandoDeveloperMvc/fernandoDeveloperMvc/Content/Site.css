@@ -7,7 +7,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 55px;
+    height: 65px;
     background-color: #1F2631;
 }
 
@@ -23,8 +23,25 @@ html, body {
     font-size: 15px;
 }
 
+/*.container {
+    background-image:  !important;
+    background: fixed;
+}*/
+
 article {
     border: none;
+}
+
+.bg_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 100;
+    background-size: cover;
 }
 
 .gray {
@@ -39,7 +56,8 @@ article {
 .red {
     /*background-color: #FF4242;*/
     /*background: radial-gradient(#fff, #FF4242 10%);*/
-    background: radial-gradient(ellipse at center, #FFAEAE 0%, #FF4242 100%)
+    background: radial-gradient(ellipse at center, #FC6145 0%, #A92810 100%)
+    /*background: radial-gradient(ellipse at center, #FFAEAE 0%, #E74C3C 100%)*/
 }
 
 .yellow {
@@ -69,7 +87,8 @@ article {
 
 .green-water {
     /*background-color: #00BDBD;*/
-    background: radial-gradient(#AFEBEB, #00BDBD 90%);
+    background: url(../Images/abstrato1.png), radial-gradient(#AFEBEB, #00BDBD 90%);
+    background-size: cover;
 }
 
 .black {
@@ -155,14 +174,14 @@ article {
     }
 
 .portfolio {
-    margin-top: 60px;
+    margin-top: 20px;
     min-height: 185px;
 }
 
     .portfolio h4 {
         color: #fff;
         margin-top: 40px;
-    }    
+    }
 
 .contato label {
     color: #fff;
@@ -187,3 +206,36 @@ article {
     padding: 10px;
     /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
 }
+
+.redes-sociais {
+    margin-top: 30px;
+}
+
+    .redes-sociais h4, h2 {
+        color: #fff;
+    }
+
+#fb-root {
+    display: none;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+.frame_powtoon {
+    border: 1px solid rgba(0,0,0,0.4);
+    position: relative;
+    top: -55px;
+}
+
+.facebook-field {
+    top:45px;
+    height:480px;
+}
+
+    .facebook-field p {
+        font-family: 'Century Gothic' !important;
+        font-size: 22px;
+        font-style:italic;
+    }

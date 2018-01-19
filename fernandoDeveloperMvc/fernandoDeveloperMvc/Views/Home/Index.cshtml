@@ -1,158 +1,24 @@
-﻿@page
-@{
-    ViewBag.Title = "Home Page";
+﻿@{
+    ViewBag.Title = "Iblin-G - Fernando Souza";
 }
 
-<section id="main">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">$(index_Load);</script>
+
+<section id="main" class="sec-back">
     <div class="panel blue" id="art1">
+
         <div class="container ">
-            <div class="row spacer">
-                <div class="col-sm-12">
-                    <div class="well">
-                        <p>col-sm-12</p>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="well">
-                        <p>col-sm-6</p>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="well">
-                        <p>col-sm-6</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="well">
-                        <p>col-sm-4</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="well">
-                        <p>col-sm-4</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="well">
-                        <p>col-sm-4</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="well">
-                        <p>col-sm-3</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="well">
-                        <p>col-sm-3</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="well">
-                        <p>col-sm-3</p>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="well">
-                        <p>col-sm-3</p>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="well">
-                        <p>col-sm-2</p>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="well">
-                        <p>col-sm-2</p>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="well">
-                        <p>col-sm-2</p>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="well">
-                        <p>col-sm-2</p>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="well">
-                        <p>col-sm-2</p>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="well">
-                        <p>col-sm-2</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
-                <div class="col-sm-1">
-                    <div class="well">
-                        <p>col-sm-1</p>
-                    </div>
-                </div>
+            <div class="spacer text-center">
+                @*<video autoplay loop class="bg_video">
+                        <source src="~/Videos/bg.mp4" type="video/mp4" />
+                    </video>*@
             </div>
         </div>
     </div>
     <div class="panel green-water" id="art2">
         <div class="container">
-            <div class="row spacer">
+            <div class="spacer">
                 <div class="hideme col-sm-12">
                     <h1>Sobre</h1>
                     <hr />
@@ -181,7 +47,7 @@
     </div>
     <div class="panel red" id="art3">
         <div class="container">
-            <div class="row spacer">
+            <div class="spacer">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 exp">
                     <div class="hideme">
                         <h1>Experiências</h1>
@@ -254,7 +120,7 @@
     </div>
     <div class="panel yellow" id="art4">
         <div class="container">
-            <div class="row spacer">
+            <div class="spacer">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 exp">
                     <div class="hideme">
                         <h1>Portfólio</h1>
@@ -264,19 +130,23 @@
                     <div class="portfolio row">
                         <div class="hideme col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
                             <h4>Plantas Gabi</h4>
-                            <img class="portfolio-image hideme" src="~/images/plantasGabi.png" />
+                            <a href="http://www.plantasgabi.com.br/" target="_blank"><img class="portfolio-image hideme" src="~/images/plantasGabi.png" /></a>
                         </div>
                         <div class="hideme col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
                             <h4>Power Services</h4>
-                            <img class="portfolio-image hideme" src="~/images/powerServices.png" />
+                            <a href="http://www.powerservices.com.br/" target="_blank"><img class="portfolio-image hideme" src="~/images/powerServices.png" /></a>
                         </div>
                         <div class="hideme col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
                             <h4>Adega D'itália</h4>
-                            <img class="portfolio-image hideme" src="~/images/adegaDitalia.png" />
+                            <a href="http://www.vinhosadegaditalia.com.br/" target="_blank"><img class="portfolio-image hideme" src="~/images/adegaDitalia.png" /></a>
                         </div>
-                        <div class="hideme col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                            <h2>Em breve novas atualizações!</h2>
-                        </div>
+                    </div>
+                    <div class="hideme col-xs-12 col-sm-12 col-md-12 col-lg-12 novas-atualizacoes">
+                        <h3>Projetos internos em alguns ógãos públicos em que participei:</h3>
+                        <p>- Secretaria da Fazenda</p>
+                        <p>- Secretaria da Educação</p>
+                        <p>- Secretaria do Desenvolvimento Social</p>
+                        <p>- Companhia de Processamento de Dados do Estado de São Paulo - Prodesp</p>
                     </div>
                 </div>
             </div>
@@ -284,13 +154,13 @@
     </div>
     <div class="panel green" id="art5">
         <div class="container">
-            <div class="row spacer">
+            <div class="spacer">
                 <div class="hideme col-sm-12">
                     <h1>Contato</h1>
                     <hr />
                 </div>
-                <div class=" contato col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="form-row ">
+                <div class=" contato col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="form-row col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="hideme form-group col-md-12">
                             <p>
                                 Deixe seu recado preenchendo os campos abaixo, ou mande um email explicando o seu projeto com detalhes
@@ -314,19 +184,27 @@
                             <textarea class="form-control noresize" rows="5"></textarea>
                         </div>
                         <div class="hideme form-group col-md-12">
-                            <button type="submit" class="btn btn-primary exp">Enviar</button>
+                            <button type="submit" class="btn btn-primary ">Enviar</button>
                         </div>
                     </div>
                 </div>
-                <div class="hideme col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="form-group col-md-12">
-                        <img src="~/images/icone-mapa.png" />
-
-                        <input type="email" class="form-control" id="inputEmail5">
-                    </div>
-                    <div class="text-center">
-                        <h3>Redes Sociais</h3>
+                <div class="hideme col-xs-12 col-sm-12 col-md-12 col-lg-6 text-center">
+                    <div class="hideme  redes-sociais">
+                        <h2>Redes Sociais</h2>
                         <h4>Onde você pode me encontrar =D</h4>
+                        <ul>
+                            <li class="col-sm-3 col-md-3 col-xs-6"><a href="https://www.facebook.com/IblinGProjetosSistemas/" target="_blank"><img src="~/Images/icones/facebook.png" /></a></li>
+                            <li class="col-sm-3 col-md-3 col-xs-6"><a href=""><img src="~/Images/icones/twitter.png" /></a></li>
+                            <li class="col-sm-3 col-md-3 col-xs-6"><a href=""><img src="~/Images/icones/skype.png" /></a></li>
+                            <li class="col-sm-3 col-md-3 col-xs-6"><a href="https://www.linkedin.com/in/fernando-souza-560b8468/" target="_blank"><img src="~/Images/icones/linkedin.png" /></a></li>
+                        </ul>
+                    </div>
+                    <hr />
+                    <div class="hideme text-center facebook-field">
+                        <p>
+                            Fique ligado na minha página do Facebook!
+                        </p>
+                        <div class="fb-page" data-href="https://www.facebook.com/IblinGProjetosSistemas/" data-tabs="false" data-small-header="false" data-width="340" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/IblinGProjetosSistemas/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/IblinGProjetosSistemas/">Iblin-G</a></blockquote></div>
                     </div>
                 </div>
             </div>
@@ -334,3 +212,4 @@
     </div>
 </section>
 
+'

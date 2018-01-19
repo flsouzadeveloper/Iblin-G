@@ -1,22 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - fernandoDeveloperCore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="~/Images/Iblin-G.ico" rel="shortcut icon" type="image/x-icon" />
-    <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
-    </environment>
-    <environment exclude="Development">
-        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-    </environment>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+    <title>@ViewBag.Title</title>
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/js")
+    @Styles.Render("~/Content/css")
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script>
+(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.11';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+            
+
+    </script>
+
     <header>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -27,12 +35,13 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="logo">
-                        <a href="Index"><img class="img-logo" src="~/Images/leaoAzulFinal-pequeno.png" /></a>
+                        <a href="~/Home/Index"><img class="img-logo" src="~/Images/leaoAzulFinal-pequeno.png" /></a>
                     </div>
                     <div class="title-logo">
-                        <a href="Index" class="subtitle1 navbar-brand"><span>Fernando Souza</span></a>
-                        <a href="Index" class="subtitle2 navbar-brand"><span>Desenvolvedor Web</span></a>
+                        <a href="~/Home/Index" class="subtitle1 navbar-brand"><span>Fernando Souza</span></a>
+                        <a href="~/Home/Index" class="subtitle2 navbar-brand"><span>Desenvolvedor Web</span></a>
                     </div>
+                    @*@Html.ActionLink("Fernando Souza", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -52,31 +61,11 @@
     <hr />
     <footer>
         <div class="container">
-            <p>&copy; @DateTime.Now.Year - Fernando Lopes de Souza - Web Developer</p>
+            <p>&copy; @DateTime.Now.Year - IBLIN-G</p>
         </div>
     </footer>
-
-    <environment include="Development">
-        <script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
-    </environment>
-    <environment exclude="Development">
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
-                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                asp-fallback-test="window.jQuery"
-                crossorigin="anonymous"
-                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
-        </script>
-        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
-                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
-                crossorigin="anonymous"
-                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
-        </script>
-        <script src="~/js/site.min.js" asp-append-version="true"></script>
-    </environment>
-
-    @RenderSection("Scripts", required: false)
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 </body>
 </html>

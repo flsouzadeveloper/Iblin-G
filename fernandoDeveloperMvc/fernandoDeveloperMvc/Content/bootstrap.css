@@ -4281,6 +4281,38 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin: 11px;
 }
 
+@media (min-width: 1200px) {
+    .novas-atualizacoes {
+        margin: 105px 0 120px;
+    }
+
+        .novas-atualizacoes h2 {
+            color: #fff !important;
+        }
+
+    .facebook-field {
+        width: 340px;
+        margin: 0 auto;
+        position:relative;
+        left:22px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .novas-atualizacoes {
+        margin: 80px 0 105px;
+    }
+
+        .novas-atualizacoes h2 {
+            color: #fff !important;
+        }
+
+
+    .redes-sociais {
+        margin-top: 90px !important;
+    }
+}
+
 @media (min-width: 991px) {
     .navbar-header {
         float: left;
@@ -4318,6 +4350,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
         font-family: 'Century Gothic' !important;
         color: #fff !important;
     }
+
+    .facebook-field {
+        width: 340px;
+        margin: 0 auto;
+        position: relative;
+        left: 18px;
+    }
 }
 
 
@@ -4354,6 +4393,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
         font-family: 'Century Gothic' !important;
         color: #fff !important;
     }
+
+    .facebook-field {
+        width: 340px;
+        margin: 0 auto;
+        position: relative;
+        left: 20px;
+    }
 }
 
 @media (max-width: 362px) {
@@ -4363,6 +4409,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
     .title-logo {
         margin-left: 5px;
+    }
+
+    .novas-atualizacoes {
+        margin-bottom: 10px;
+        color: #fff !important;
     }
 }
 
@@ -4442,6 +4493,18 @@ textarea.input-group-sm > .input-group-btn > .btn {
     .container > .navbar-collapse {
         margin-right: 0;
         margin-left: 0;
+    }
+    
+    .redes-sociais img {
+        width: 60px;
+        height: 60px;
+        margin: 18px;
+    }
+
+    .redes-sociais li {
+        text-decoration: none;
+        list-style: none;
+        display: inline;
     }
 }
 
@@ -4561,6 +4624,18 @@ textarea.input-group-sm > .input-group-btn > .btn {
             .navbar-nav .open .dropdown-menu > li > a:focus {
                 background-image: none;
             }
+
+    .redes-sociais img {
+        width: 60px;
+        height: 60px;
+        margin: 18px;
+    }
+
+    .redes-sociais li {
+        text-decoration: none;
+        list-style: none;
+        display: inline;
+    }
 }
 
 @media (min-width: 768px) {
@@ -4583,7 +4658,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
             }
 
             .navbar-nav > li:hover:nth-child(3) {
-                background-color: #FF4242;
+                background-color: #A92810;
             }
 
             .navbar-nav > li:hover:nth-child(4) {
